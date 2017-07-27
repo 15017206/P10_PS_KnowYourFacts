@@ -31,7 +31,7 @@ public class ScheduledNotificationReceiver extends BroadcastReceiver {
         Uri uri= RingtoneManager.getDefaultUri(RingtoneManager.TYPE_NOTIFICATION);
         builder.setSound(uri);
 
-//        builder.setAutoCancel(true);
+        builder.setAutoCancel(true);
 
         Notification n = builder.build();
         NotificationManager notificationManager = (NotificationManager)context.getSystemService(Context.NOTIFICATION_SERVICE);
