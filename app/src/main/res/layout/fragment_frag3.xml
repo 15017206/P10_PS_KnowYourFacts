@@ -1,0 +1,40 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.a15017206.p10psknowyourfacts.Frag3">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:id="@+id/ll3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <ImageView
+            android:id="@+id/iv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@mipmap/ic_launcher" />
+
+        <EditText
+            android:id="@+id/etFact3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.92"
+            android:background="@android:color/holo_green_light"
+            android:ems="10"
+            android:inputType="textMultiLine"
+            android:text="Fact 3" />
+
+        <Button
+            android:id="@+id/btnChangeColor3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Change Color" />
+
+    </LinearLayout>
+
+</FrameLayout>

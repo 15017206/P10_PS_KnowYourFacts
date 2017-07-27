@@ -1,0 +1,38 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="20dp"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:layout_marginTop="20dp"
+    tools:context="com.example.a15017206.p10psknowyourfacts.Frag1">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:id="@+id/ll1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <EditText
+            android:id="@+id/etFact1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.92"
+            android:background="@android:color/holo_blue_bright"
+            android:ems="10"
+            android:inputType="textMultiLine"
+            android:text="Fact 1" />
+
+        <Button
+            android:id="@+id/btnChangeColor1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Change Color" />
+
+    </LinearLayout>
+
+</FrameLayout>
